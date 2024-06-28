@@ -1,0 +1,25 @@
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a routerLink="/home">PHONESTORE</a></div>
+            <button
+            appearance="primary"
+            tuiButton
+            type="button"
+            class="btn-right"
+            routerLink="/product-management"
+        >
+        Product Management
+        </button>
+            <!-- <button class="btn-right" routerLink="/product-management">Product Management</button> -->
+            <div class="btn-left">
+                <button routerLink="/cart">Cart</button>
+                <button (click)="signOut()">SignOut</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="phone-list"></div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"> </div>
+    </main>
+</body>

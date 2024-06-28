@@ -1,0 +1,67 @@
+.navbar{
+    background-color: rgb(88, 142, 228);
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-right{
+    display: flex;
+    justify-content: flex-start;
+    width: 180px;
+    padding: 25px;
+    background-color: rgb(88, 142, 228);
+    border: none;
+    text-align: left;
+}
+.navbar{
+.btn-left
+{
+    background-color: rgb(88, 142, 228);
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(69, 73, 143);
+    text-decoration: none;
+    border: rgb(67, 189, 237);
+    border-radius: 10px;
+    padding: 7px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+// button{
+//     background-color:white ;
+//     margin-left: 10px;
+//     border-radius:  10px; 
+//     padding: 10px;
+//     width: 90px;
+// }
+button a{
+    color :black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.phone-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
